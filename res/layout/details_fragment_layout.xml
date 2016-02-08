@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFEE00"
+        >
+
+    <TextView
+            android:text="Client"
+            android:textSize="30sp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+    <TextView
+            android:id="@+id/tvNom"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textSize="25sp"
+            />
+    <TextView
+            android:id="@+id/tvCommercial"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_weight="3"
+            />
+
+</LinearLayout>
